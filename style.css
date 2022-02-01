@@ -1,0 +1,10 @@
+.btn {
+  width: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+  align-items: center;
+}
+
+#make-your-move {
+  text-align: center;
+}
