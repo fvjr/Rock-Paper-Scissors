@@ -1,16 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Rock-Paper-Scissors</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-  
+  <div class="container">
+    <h3 id="make-your-move">Choose your move!</h3>
+    <div class="row">
+      <button type="button" class=" btn btn-primary" id="btnRock">Rock</button>
+      <button type="button" class=" btn btn-primary" id="btnPaper">Paper</button>
+      <button type="button" class=" btn btn-primary" id="btnScissors">Scissors</button>
+    </div>
+    <h2 id="computer-score">Computer Score: 0</h2>
+    <h2 id="player-score">Your Score: 0</h2>
+    <h4 id="computer-choice"></h4>
+    <h4 id="player-choice"></h4>
+    <h4 id="results"></h4>
+    <h2 id="victory-text"></h2>
+  </div>
 
-<script src= 'script.js'></script>
-<script src= './script/RPSgame.js'></script>
+  <script src='./script/RPSgame.js'></script>
 </body>
+
 </html>
